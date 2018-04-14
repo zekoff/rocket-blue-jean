@@ -253,7 +253,7 @@
             "varType": 1
         }
     ],
-    "solid": true,
+    "solid": false,
     "spriteId": "c3f16f04-76f2-4928-864e-1732d0c2857c",
     "visible": true
 }
