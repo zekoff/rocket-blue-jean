@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "11ee5675-512c-4a39-a502-27881d9a83f4",
+            "Value": {
+                "id": "a6b4ca8e-98a3-4494-a460-db17a1790448",
+                "resourcePath": "sprites\\spr_bullet_pistol\\spr_bullet_pistol.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "125a58e0-f696-4d5c-84eb-b00edae3ec1e",
+            "Value": {
+                "id": "ac7b9edd-ee4a-4670-9b0d-0e4325e8be3a",
+                "resourcePath": "objects\\obj_bullet_rocket\\obj_bullet_rocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16059548-3bf9-47eb-b0b8-55188ce6f272",
             "Value": {
                 "id": "8af98246-3c22-4e9e-9589-de4682413676",
@@ -183,11 +199,35 @@
             }
         },
         {
+            "Key": "488ba103-8781-420a-9e56-b4488316a471",
+            "Value": {
+                "id": "ec103176-f8e4-4723-b80c-f1177932e387",
+                "resourcePath": "sprites\\spr_bullet_rocket\\spr_bullet_rocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52cd378c-3ef2-43fb-805a-f326e50a84d4",
+            "Value": {
+                "id": "038d51a4-516a-449b-bb52-6aa7c248e5b4",
+                "resourcePath": "sprites\\spr_bullet_rifle\\spr_bullet_rifle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a4a375a-d810-4118-ab3e-d0b5d83fe2ff",
             "Value": {
                 "id": "04a6c710-0f36-409e-bddf-7b6c3859898e",
                 "resourcePath": "sprites\\spr_world_tiles\\spr_world_tiles.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60ec7a39-47c0-4c86-b885-1eef80762a8d",
+            "Value": {
+                "id": "22966e22-3c2b-40e1-941e-8f919319cd42",
+                "resourcePath": "views\\60ec7a39-47c0-4c86-b885-1eef80762a8d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -203,6 +243,14 @@
             "Value": {
                 "id": "e3cc6311-cf88-4fff-bcdf-00981f60926e",
                 "resourcePath": "objects\\obj_pickup_rifle\\obj_pickup_rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6858a877-18de-41ca-b76b-464794e08b4c",
+            "Value": {
+                "id": "8b976eca-5db8-44b4-9049-4a945887a398",
+                "resourcePath": "objects\\obj_bullet_base\\obj_bullet_base.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -311,6 +359,14 @@
             }
         },
         {
+            "Key": "d2dbf0e4-4c2e-4688-8e41-3153919b36a9",
+            "Value": {
+                "id": "91355c09-b520-434c-b177-b021c94b91f0",
+                "resourcePath": "views\\d2dbf0e4-4c2e-4688-8e41-3153919b36a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dcf1eaa4-d633-42ac-9ff9-ba5377282a44",
             "Value": {
                 "id": "006699c1-5f77-45de-9d25-59d65e30702a",
@@ -343,6 +399,14 @@
             }
         },
         {
+            "Key": "e944a209-53d5-4120-b2ed-7cc759eab9fc",
+            "Value": {
+                "id": "9158f7f4-8f3f-4838-8272-0b700704c605",
+                "resourcePath": "objects\\obj_bullet_rifle\\obj_bullet_rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed35e5c8-9576-4f7a-b406-7e6ad55bf429",
             "Value": {
                 "id": "6341c86d-819e-4bc9-905d-084ec7b5c01c",
@@ -356,6 +420,14 @@
                 "id": "b9392be3-1461-4821-8777-a87c9f082451",
                 "resourcePath": "views\\ede7549b-a89d-4426-aa84-6d12bdd22f90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fde7673f-8ba4-4c3e-adc4-770065630a0b",
+            "Value": {
+                "id": "184e9eea-ba2f-4194-b10e-8fd89f871c70",
+                "resourcePath": "objects\\obj_bullet_pistol\\obj_bullet_pistol.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

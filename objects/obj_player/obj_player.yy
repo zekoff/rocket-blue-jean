@@ -217,6 +217,34 @@
             "value": "\"None\"",
             "varName": "equipment",
             "varType": 6
+        },
+        {
+            "id": "e1873787-71ec-43d0-b767-012532883298",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 30,
+            "rangeMin": 1,
+            "resourceFilter": 1023,
+            "value": "7.6",
+            "varName": "rifle_cooldown",
+            "varType": 0
+        },
+        {
+            "id": "8a1fd442-8a23-4a57-b91f-401c0969a037",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "rifle_current",
+            "varType": 0
         }
     ],
     "solid": true,

@@ -20,6 +20,14 @@ switch(l70A1093F_0)
 		/// @DnDSaveInfo : "spriteind" "cd721c6d-2723-46dc-89aa-35bf727184cd"
 		sprite_index = spr_player_pistol;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7A71E3E6
+		/// @DnDParent : 413D6F6E
+		/// @DnDArgument : "expr" ""Pistol""
+		/// @DnDArgument : "var" "equipment"
+		equipment = "Pistol";
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -36,6 +44,14 @@ switch(l70A1093F_0)
 		/// @DnDSaveInfo : "spriteind" "e8c7b2cf-dd77-4d29-a10e-bcfd80a8334a"
 		sprite_index = spr_player_rifle;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 690FEA11
+		/// @DnDParent : 53BBF746
+		/// @DnDArgument : "expr" ""Rifle""
+		/// @DnDArgument : "var" "equipment"
+		equipment = "Rifle";
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -52,6 +68,14 @@ switch(l70A1093F_0)
 		/// @DnDSaveInfo : "spriteind" "16059548-3bf9-47eb-b0b8-55188ce6f272"
 		sprite_index = spr_player_rocket;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 39047AE0
+		/// @DnDParent : 02553A6D
+		/// @DnDArgument : "expr" ""Rocket""
+		/// @DnDArgument : "var" "equipment"
+		equipment = "Rocket";
 		break;
 }
 
