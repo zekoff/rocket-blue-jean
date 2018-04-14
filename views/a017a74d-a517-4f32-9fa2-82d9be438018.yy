@@ -10,7 +10,7 @@
         "16059548-3bf9-47eb-b0b8-55188ce6f272"
     ],
     "filterType": "GMSprite",
-    "folderName": "player_sprites",
+    "folderName": "player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
