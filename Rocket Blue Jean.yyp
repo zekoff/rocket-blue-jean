@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05a55963-77d0-494c-92f9-8f71b3686267",
+            "Value": {
+                "id": "8d2eb100-0e75-40b7-a1e7-f2fcfbf3c4ec",
+                "resourcePath": "scripts\\scr_change_weapon\\scr_change_weapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "08299a10-8d85-436b-983c-72820a9674b1",
             "Value": {
                 "id": "b9d1565f-7ea9-44d1-951c-d79de30f9a15",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "2fc1e884-d1d9-4d71-bdf9-5867635e1a0b",
+            "Value": {
+                "id": "a320b9a0-2c27-4a67-81f7-1bc5cbd09584",
+                "resourcePath": "objects\\obj_bullet_sword_slash\\obj_bullet_sword_slash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30a79436-1d32-4df9-9f45-9b778fcb1564",
             "Value": {
                 "id": "7976f0c6-bafc-4a3c-95fb-1215e8b2a003",
@@ -243,6 +259,14 @@
             "Value": {
                 "id": "ec103176-f8e4-4723-b80c-f1177932e387",
                 "resourcePath": "sprites\\spr_bullet_rocket\\spr_bullet_rocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "498a1fc5-cc33-4289-a0fc-645f1bd55522",
+            "Value": {
+                "id": "a35c73f8-b5bb-4e59-a2ca-17776888e5a8",
+                "resourcePath": "sprites\\spr_sword_strike\\spr_sword_strike.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -463,6 +487,14 @@
             }
         },
         {
+            "Key": "d89bb777-0079-43d8-9e01-6409e0c8a153",
+            "Value": {
+                "id": "5ae3264b-5134-4deb-b08b-dd92f7e02151",
+                "resourcePath": "sprites\\spr_player_sword\\spr_player_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dcf1eaa4-d633-42ac-9ff9-ba5377282a44",
             "Value": {
                 "id": "006699c1-5f77-45de-9d25-59d65e30702a",
@@ -576,7 +608,8 @@
         }
     ],
     "script_order": [
-        "0421c019-b45a-49cc-af37-8b29ff592cfe"
+        "0421c019-b45a-49cc-af37-8b29ff592cfe",
+        "05a55963-77d0-494c-92f9-8f71b3686267"
     ],
     "tutorial": ""
 }

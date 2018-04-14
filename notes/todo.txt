@@ -5,7 +5,8 @@
 [x] Only apply friction on ground
 [ ] Create a better camera (stay ahead of player's movement direction)
 [ ] Take away a jump if player moves off ledge without jumping
-[ ] Add ammo and HUD element
-[ ] Add enemy
+[x] Add ammo and HUD element
+[x] Add enemy
 [ ] Bullets go through walls
-[ ] Zombies own
+[ ] Add rebound for enemies when they make contact
+[x] Add smarts to weapon changing (bind sprite changeouts, etc.)

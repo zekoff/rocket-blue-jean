@@ -206,7 +206,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"None\"",
+            "value": "\"Pistol\"",
             "varName": "equipment",
             "varType": 6
         },
@@ -237,6 +237,20 @@
             "value": "0",
             "varName": "rifle_current",
             "varType": 0
+        },
+        {
+            "id": "c0134da7-ec68-4a92-b166-34c04729c530",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ammo",
+            "varType": 1
         }
     ],
     "solid": true,

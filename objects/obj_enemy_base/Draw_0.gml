@@ -12,9 +12,9 @@ draw_self();
 /// @DnDArgument : "y1_relative" "1"
 /// @DnDArgument : "x2" "8"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "23"
+/// @DnDArgument : "y2" "21"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "mincol" "$FF0000FF"
 /// @DnDArgument : "maxcol" "$FF00FF00"
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-draw_healthbar(x + -8, y + 18, x + 8, y + 23, __dnd_health, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FFFFFFFF>>24) != 0));
+draw_healthbar(x + -8, y + 18, x + 8, y + 21, __dnd_health, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FFFFFFFF>>24) != 0));
