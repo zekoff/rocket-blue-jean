@@ -1,8 +1,8 @@
 {
-    "id": "1b80db30-01c2-475d-b242-9082dbeb23c2",
+    "id": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_entity",
+    "name": "obj_pickup_base",
     "eventList": [
         
     ],
@@ -24,18 +24,18 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "9b2f1a2a-5953-4606-a910-78c429f788b2",
+            "id": "83eba5d0-915b-416e-904c-aeda97969e90",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
             "multiselect": false,
-            "rangeEnabled": true,
-            "rangeMax": 1,
+            "rangeEnabled": false,
+            "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.175",
-            "varName": "gravity_power",
-            "varType": 0
+            "value": "\"\"",
+            "varName": "pickup_type",
+            "varType": 2
         }
     ],
     "solid": false,

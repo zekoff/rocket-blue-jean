@@ -1,0 +1,5 @@
+*TODO*
+[ ] Tidy up movement code (player can instantly move full speed left but not right)
+[x] Add "on ground" variable to player, for jump refresh, friction, etc.
+[x] Add limit to jumping
+[x] Only apply friction on ground

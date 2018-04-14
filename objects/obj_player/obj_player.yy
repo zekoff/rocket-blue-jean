@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "94206336-2ce3-4922-ae23-e64c1adeff7d"
+        },
+        {
+            "id": "bdf931c0-6c2c-4de9-8b88-5660c6fc7f1a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "94206336-2ce3-4922-ae23-e64c1adeff7d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -73,7 +83,7 @@
             "rangeMax": 25,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "4.5",
             "varName": "jump_power",
             "varType": 0
         },
@@ -84,11 +94,11 @@
             "listItems": null,
             "multiselect": false,
             "rangeEnabled": true,
-            "rangeMax": 15,
+            "rangeMax": 23,
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "3",
-            "varName": "movement_speed",
+            "varName": "max_movement_speed",
             "varType": 0
         },
         {
@@ -118,6 +128,95 @@
             "value": "0",
             "varName": "vsp",
             "varType": 0
+        },
+        {
+            "id": "12c32fdc-5be7-4a24-9763-49988cecc2e5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.3",
+            "varName": "friction_power",
+            "varType": 0
+        },
+        {
+            "id": "51b10fed-31d3-43fd-97a9-97714907ed41",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 4,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.45",
+            "varName": "acceleration",
+            "varType": 0
+        },
+        {
+            "id": "a4d97eab-854e-428e-bb32-b2db2df5d2ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "on_ground",
+            "varType": 3
+        },
+        {
+            "id": "777a0fd6-c29a-4657-9296-c6c59e8362a7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "number_jumps",
+            "varType": 1
+        },
+        {
+            "id": "fadf68da-5825-4c66-af21-88ec33ca84fe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "jumps_remaining",
+            "varType": 1
+        },
+        {
+            "id": "620facda-65a3-4055-b02f-9bee1116f6ed",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"None\"",
+                "\"Pistol\"",
+                "\"Rifle\"",
+                "\"Rocket\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"None\"",
+            "varName": "equipment",
+            "varType": 6
         }
     ],
     "solid": true,
