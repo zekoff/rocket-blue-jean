@@ -71,6 +71,71 @@ hsp = clamp(hsp, -max_movement_speed, max_movement_speed);
 
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
 /// @DnDVersion : 1.1
+/// @DnDHash : 2E87DA7E
+var l2E87DA7E_0 = 0;
+var l2E87DA7E_1 = gp_face4;
+if(gamepad_is_connected(l2E87DA7E_0) && gamepad_button_check_pressed(l2E87DA7E_0, l2E87DA7E_1))
+{
+	/// @DnDAction : YoYo Games.Collisions.If_Object_At
+	/// @DnDVersion : 1
+	/// @DnDHash : 7EDC91A6
+	/// @DnDParent : 2E87DA7E
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "object" "obj_computer"
+	/// @DnDSaveInfo : "object" "a65994a1-fa7e-48b1-869a-a441019eaadd"
+	var l7EDC91A6_0 = instance_place(x + 0, y + 0, obj_computer);
+	if ((l7EDC91A6_0 > 0))
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 59DCBF03
+		/// @DnDApplyTo : a65994a1-fa7e-48b1-869a-a441019eaadd
+		/// @DnDParent : 7EDC91A6
+		/// @DnDArgument : "spriteind" "spr_computer_active"
+		/// @DnDSaveInfo : "spriteind" "ca0f9311-ff0f-47ea-b7e3-7521bc02bb2f"
+		with(obj_computer) {
+		sprite_index = spr_computer_active;
+		image_index = 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Instances.Change_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 40045516
+		/// @DnDApplyTo : 42f0e345-4317-4967-a435-95779013f175
+		/// @DnDParent : 7EDC91A6
+		/// @DnDArgument : "objind" "obj_door_open"
+		/// @DnDSaveInfo : "objind" "58ae09be-f3d2-4aa7-8254-123facc2c718"
+		with(obj_door_closed) instance_change(obj_door_open, true);
+	
+		/// @DnDAction : YoYo Games.Tiles.Tile_Set_In_Cell
+		/// @DnDVersion : 1
+		/// @DnDHash : 22AE97A1
+		/// @DnDParent : 7EDC91A6
+		/// @DnDArgument : "layername" ""CollisionTiles""
+		/// @DnDArgument : "x" "40"
+		/// @DnDArgument : "y" "28"
+		var l22AE97A1_0 = layer_tilemap_get_id("CollisionTiles");
+		if(l22AE97A1_0 > -1) {
+			var l22AE97A1_1 = tilemap_get(l22AE97A1_0, 40, 28);
+			if(l22AE97A1_1 > -1) {
+				l22AE97A1_1 = tile_set_index(l22AE97A1_1, 0);
+				if(l22AE97A1_1 > -1) tilemap_set(l22AE97A1_0, l22AE97A1_1, 40, 28);
+			}
+		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5BE20DF8
+		/// @DnDParent : 7EDC91A6
+		/// @DnDArgument : "soundid" "pickup"
+		/// @DnDSaveInfo : "soundid" "b1937997-e87a-4247-bc6a-240e8ccae3e2"
+		audio_play_sound(pickup, 0, 0);
+	}
+}
+
+/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
+/// @DnDVersion : 1.1
 /// @DnDHash : 24F0BAEE
 /// @DnDArgument : "btn" "gp_face1"
 var l24F0BAEE_0 = 0;
