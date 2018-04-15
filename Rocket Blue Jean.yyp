@@ -34,7 +34,7 @@
             "Key": "010aa336-d692-4401-9f03-11bdbb46153d",
             "Value": {
                 "id": "d1cdbe14-7a41-4155-b893-d8fff0a0591b",
-                "resourcePath": "scripts\\scr_collide_vertical_test\\scr_collide_vertical_test.yy",
+                "resourcePath": "scripts\\scr_collide_vertical\\scr_collide_vertical.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "5f10f58b-4f61-42c1-b3ce-7fc7d2bb98b1",
+            "Value": {
+                "id": "a956e733-7e53-4bff-87ad-5720544f5400",
+                "resourcePath": "sounds\\digital_frontier\\digital_frontier.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "60ec7a39-47c0-4c86-b885-1eef80762a8d",
             "Value": {
                 "id": "22966e22-3c2b-40e1-941e-8f919319cd42",
@@ -434,7 +442,7 @@
             "Key": "7551b329-df23-408b-b20c-8114e9139f2a",
             "Value": {
                 "id": "bf3a685d-37cf-4434-868d-0a74a06aa825",
-                "resourcePath": "scripts\\scr_collide_horizontal\\scr_collide_horizontal.yy",
+                "resourcePath": "scripts\\scr_collide_horizontal_OLD\\scr_collide_horizontal_OLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -450,7 +458,7 @@
             "Key": "86c83681-bb0a-4559-81cc-93771d6bf584",
             "Value": {
                 "id": "ea7d6747-9180-4d12-9a61-1b028be84d86",
-                "resourcePath": "scripts\\scr_collide_vertical\\scr_collide_vertical.yy",
+                "resourcePath": "scripts\\scr_collide_vertical_OLD\\scr_collide_vertical_OLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -546,7 +554,7 @@
             "Key": "ba0b0724-0fbe-448d-8627-27b6ab24bdc0",
             "Value": {
                 "id": "ad06e50a-2652-455f-9081-ca384c53d123",
-                "resourcePath": "scripts\\scr_collide_horizontal_test\\scr_collide_horizontal_test.yy",
+                "resourcePath": "scripts\\scr_collide_horizontal\\scr_collide_horizontal.yy",
                 "resourceType": "GMScript"
             }
         },

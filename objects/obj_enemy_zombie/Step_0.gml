@@ -11,9 +11,9 @@ vspeed += gravity_power;
 /// @DnDHash : 2C1E2153
 /// @DnDArgument : "var" "_collided_vertical"
 /// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "script" "scr_collide_vertical_test"
+/// @DnDArgument : "script" "scr_collide_vertical"
 /// @DnDSaveInfo : "script" "010aa336-d692-4401-9f03-11bdbb46153d"
-var _collided_vertical = script_execute(scr_collide_vertical_test);
+var _collided_vertical = script_execute(scr_collide_vertical);
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
@@ -34,9 +34,9 @@ if(_collided_vertical != 0)
 /// @DnDHash : 5D8EFF33
 /// @DnDArgument : "var" "_collided_horizontal"
 /// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "script" "scr_collide_horizontal_test"
+/// @DnDArgument : "script" "scr_collide_horizontal"
 /// @DnDSaveInfo : "script" "ba0b0724-0fbe-448d-8627-27b6ab24bdc0"
-var _collided_horizontal = script_execute(scr_collide_horizontal_test);
+var _collided_horizontal = script_execute(scr_collide_horizontal);
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
