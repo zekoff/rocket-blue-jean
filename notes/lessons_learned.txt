@@ -1,0 +1,12 @@
+*GMS2 lessons learned from making this game*
+- Negative values evaluate to FALSE in GMS2
+- Also rumored that values of less than 0.5 also evaluate to false
+- Whatever the window canvas size is set to when the game initializes into the first room, 
+it won't change (even if other rooms/viewports should cause it to resize differently)
+- If a child collision event and a parent collision event both exist, and a child coolides,
+only the child collision event will fire
+- Objects not marked visible will still process (just not draw)
+- xprevious/yprevious are set to x/y of previous frame before the Step phase
+- hspeed/vspeed are used to update x/y between Step and Draw phases (same for gravity, friction)
+- Direction will update to match changes in hspeed/vspeed
+- The room at the top of the Resource explorer will run first

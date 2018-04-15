@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "5333582b-e48b-43a3-9b35-bad5e6cac7bb",
+            "Value": {
+                "id": "737683ed-628a-4d2c-8fba-16c97dfda4a4",
+                "resourcePath": "notes\\lessons_learned.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "5629336b-8d03-4d6c-a23b-cb064f22fd81",
             "Value": {
                 "id": "8a60f603-e5a9-4376-a2df-bf7c75edc369",
@@ -578,7 +586,7 @@
             "Key": "c70abe77-a8a0-41a1-88dd-3083e981d833",
             "Value": {
                 "id": "0ecfdc70-78e6-403d-917b-67fc750fd868",
-                "resourcePath": "notes\\note1.yy",
+                "resourcePath": "notes\\collision notes.yy",
                 "resourceType": "GMNotes"
             }
         },
