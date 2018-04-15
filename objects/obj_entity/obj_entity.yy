@@ -36,34 +36,6 @@
             "value": "0.25",
             "varName": "gravity_power",
             "varType": 0
-        },
-        {
-            "id": "79dc6bc5-6f48-4e3e-8496-35c205bc1a15",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hsp",
-            "varType": 0
-        },
-        {
-            "id": "ec4967fd-0047-433d-9bee-b01e29b65211",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "vsp",
-            "varType": 0
         }
     ],
     "solid": false,

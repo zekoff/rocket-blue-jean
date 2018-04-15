@@ -103,14 +103,14 @@ if(gamepad_is_connected(l2E87DA7E_0) && gamepad_button_check_pressed(l2E87DA7E_0
 		/// @DnDHash : 22AE97A1
 		/// @DnDParent : 7EDC91A6
 		/// @DnDArgument : "layername" ""CollisionTiles""
-		/// @DnDArgument : "x" "40"
-		/// @DnDArgument : "y" "28"
+		/// @DnDArgument : "x" "obj_computer.door_column"
+		/// @DnDArgument : "y" "obj_computer.door_row"
 		var l22AE97A1_0 = layer_tilemap_get_id("CollisionTiles");
 		if(l22AE97A1_0 > -1) {
-			var l22AE97A1_1 = tilemap_get(l22AE97A1_0, 40, 28);
+			var l22AE97A1_1 = tilemap_get(l22AE97A1_0, obj_computer.door_column, obj_computer.door_row);
 			if(l22AE97A1_1 > -1) {
 				l22AE97A1_1 = tile_set_index(l22AE97A1_1, 0);
-				if(l22AE97A1_1 > -1) tilemap_set(l22AE97A1_0, l22AE97A1_1, 40, 28);
+				if(l22AE97A1_1 > -1) tilemap_set(l22AE97A1_0, l22AE97A1_1, obj_computer.door_column, obj_computer.door_row);
 			}
 		}
 	
@@ -198,9 +198,9 @@ if(gamepad_is_connected(l485A7804_0) && gamepad_button_check_pressed(l485A7804_0
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 7212C9A0
-/// @DnDArgument : "script" "scr_collide_test"
+/// @DnDArgument : "script" "scr_collide"
 /// @DnDSaveInfo : "script" "710b4975-97fa-4e66-a74b-f9c8914ab8b8"
-script_execute(scr_collide_test);
+script_execute(scr_collide);
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

@@ -15,9 +15,9 @@ __dnd_health += real(35);
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 290122B7
-/// @DnDArgument : "health" "min(health,100)"
+/// @DnDArgument : "health" "min(__dnd_health,100)"
 
-__dnd_health = real(min(health,100));
+__dnd_health = real(min(__dnd_health,100));
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
