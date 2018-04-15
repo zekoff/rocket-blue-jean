@@ -33,7 +33,7 @@
             "rangeMax": 1,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.175",
+            "value": "0.25",
             "varName": "gravity_power",
             "varType": 0
         },

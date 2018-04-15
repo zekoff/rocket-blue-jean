@@ -24,14 +24,14 @@ if (tilemap_get_at_pixel(collision_tilemap, edge, bbox_top) != 0 ||
 	collided = true;
 }
 
-//on_ground = false;
+on_ground = false;
 if (vspeed + gravity > 0) edge = bbox_bottom else edge = bbox_top; edge += (ceil(abs(vspeed + gravity)) * sign(vspeed + gravity));
 if (tilemap_get_at_pixel(collision_tilemap, bbox_left, edge) != 0 ||
 	tilemap_get_at_pixel(collision_tilemap, bbox_right, edge) != 0) {
 	if (vspeed + gravity > 0) {
 		// Standing on a tile. Peg to top edge of tile to the bottom
 		y = y - (y % TILE_WIDTH) - (bbox_bottom - y) + TILE_WIDTH - 1;
-		//on_ground = true;
+		on_ground = true;
 		gravity = 0;
 	} else {
 		// Hitting head on a tile. Peg to bottom edge of tile to the top

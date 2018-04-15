@@ -1,27 +1,16 @@
+/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
+/// @DnDVersion : 1
+/// @DnDHash : 1B86D05B
+/// @DnDArgument : "force" "gravity_power"
+gravity = gravity_power;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1CF44BD7
-/// @DnDInput : 2
-/// @DnDArgument : "expr" "gravity_power"
+/// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "expr_1" "-1"
-/// @DnDArgument : "expr_relative_1" "1"
-/// @DnDArgument : "var" "vsp"
-/// @DnDArgument : "var_1" "rifle_current"
-vsp += gravity_power;
+/// @DnDArgument : "var" "rifle_current"
 rifle_current += -1;
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 160A1242
-/// @DnDArgument : "code" "// Apply movement friction$(13_10)if (hsp != 0) {$(13_10)	var dir = sign(hsp);$(13_10)	var actual_friction = on_ground ? friction_power : friction_power / 2;$(13_10)	hsp = max(0, abs(hsp) - friction_power);$(13_10)	hsp *= dir;$(13_10)}"
-// Apply movement friction
-if (hsp != 0) {
-	var dir = sign(hsp);
-	var actual_friction = on_ground ? friction_power : friction_power / 2;
-	hsp = max(0, abs(hsp) - friction_power);
-	hsp *= dir;
-}
 
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Down
 /// @DnDVersion : 1.1
@@ -37,8 +26,8 @@ if(gamepad_is_connected(l300FEE19_0) && (gamepad_button_check(l300FEE19_0, l300F
 	/// @DnDParent : 300FEE19
 	/// @DnDArgument : "expr" "acceleration"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "hsp"
-	hsp += acceleration;
+	/// @DnDArgument : "var" "hspeed"
+	hspeed += acceleration;
 }
 
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Down
@@ -55,20 +44,20 @@ if(gamepad_is_connected(l4775CD53_0) && (gamepad_button_check(l4775CD53_0, l4775
 	/// @DnDParent : 4775CD53
 	/// @DnDArgument : "expr" "-acceleration"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "hsp"
-	hsp += -acceleration;
+	/// @DnDArgument : "var" "hspeed"
+	hspeed += -acceleration;
 }
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
 /// @DnDHash : 2BFFE892
 /// @DnDInput : 3
-/// @DnDArgument : "var" "hsp"
+/// @DnDArgument : "var" "hspeed"
 /// @DnDArgument : "function" "clamp"
-/// @DnDArgument : "arg" "hsp"
+/// @DnDArgument : "arg" "hspeed"
 /// @DnDArgument : "arg_1" "-max_movement_speed"
 /// @DnDArgument : "arg_2" "max_movement_speed"
-hsp = clamp(hsp, -max_movement_speed, max_movement_speed);
+hspeed = clamp(hspeed, -max_movement_speed, max_movement_speed);
 
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
 /// @DnDVersion : 1.1
@@ -167,9 +156,9 @@ if(gamepad_is_connected(l24F0BAEE_0) && gamepad_button_check_pressed(l24F0BAEE_0
 		/// @DnDArgument : "expr" "-jump_power"
 		/// @DnDArgument : "expr_1" "-1"
 		/// @DnDArgument : "expr_relative_1" "1"
-		/// @DnDArgument : "var" "vsp"
+		/// @DnDArgument : "var" "vspeed"
 		/// @DnDArgument : "var_1" "jumps_remaining"
-		vsp = -jump_power;
+		vspeed = -jump_power;
 		jumps_remaining += -1;
 	}
 }
@@ -209,9 +198,9 @@ if(gamepad_is_connected(l485A7804_0) && gamepad_button_check_pressed(l485A7804_0
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 7212C9A0
-/// @DnDArgument : "script" "scr_collide"
-/// @DnDSaveInfo : "script" "0421c019-b45a-49cc-af37-8b29ff592cfe"
-script_execute(scr_collide);
+/// @DnDArgument : "script" "scr_collide_test"
+/// @DnDSaveInfo : "script" "710b4975-97fa-4e66-a74b-f9c8914ab8b8"
+script_execute(scr_collide_test);
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
@@ -228,31 +217,18 @@ if(on_ground)
 	jumps_remaining = number_jumps;
 }
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 28DD174D
-/// @DnDInput : 2
-/// @DnDArgument : "expr" "hsp"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "expr_1" "vsp"
-/// @DnDArgument : "expr_relative_1" "1"
-/// @DnDArgument : "var" "x"
-/// @DnDArgument : "var_1" "y"
-x += hsp;
-y += vsp;
-
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3E580A7C
-/// @DnDArgument : "expr" "hsp != 0"
-if(hsp != 0)
+/// @DnDArgument : "expr" "hspeed != 0"
+if(hspeed != 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 3ACC2EE9
 	/// @DnDParent : 3E580A7C
-	/// @DnDArgument : "xscale" "sign(hsp)"
-	image_xscale = sign(hsp);
+	/// @DnDArgument : "xscale" "sign(hspeed)"
+	image_xscale = sign(hspeed);
 	image_yscale = 1;
 }
 

@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 73A62026
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "5 * -sign(hsp)"
+/// @DnDArgument : "expr" "5 * -sign(hspeed)"
 /// @DnDArgument : "expr_1" "-3"
-/// @DnDArgument : "var" "hsp"
-/// @DnDArgument : "var_1" "vsp"
-hsp = 5 * -sign(hsp);
-vsp = -3;
+/// @DnDArgument : "var" "hspeed"
+/// @DnDArgument : "var_1" "vspeed"
+hspeed = 5 * -sign(hspeed);
+vspeed = -3;

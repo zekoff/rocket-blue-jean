@@ -113,7 +113,7 @@
             "rangeMax": 25,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4.5",
+            "value": "6.5",
             "varName": "jump_power",
             "varType": 0
         },
@@ -141,7 +141,7 @@
             "rangeMax": 1,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.3",
+            "value": "0.1",
             "varName": "friction_power",
             "varType": 0
         },
@@ -155,7 +155,7 @@
             "rangeMax": 4,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.45",
+            "value": "0.35",
             "varName": "acceleration",
             "varType": 0
         },
