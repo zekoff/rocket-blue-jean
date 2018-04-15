@@ -24,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "83eba5d0-915b-416e-904c-aeda97969e90",
+            "id": "10a7fd60-be0f-4616-b771-d6d72d3793a3",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -33,7 +33,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"\"",
+            "value": "0",
             "varName": "pickup_type",
             "varType": 2
         }

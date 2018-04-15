@@ -9,11 +9,11 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "2264876c-69b1-43aa-94e5-a511720a6a41",
+            "id": "ce3cf6d5-3f9b-42f1-95c6-8fcd29cf36c2",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
-            "propertyId": "83eba5d0-915b-416e-904c-aeda97969e90",
+            "propertyId": "10a7fd60-be0f-4616-b771-d6d72d3793a3",
             "value": "\"Rocket\""
         }
     ],

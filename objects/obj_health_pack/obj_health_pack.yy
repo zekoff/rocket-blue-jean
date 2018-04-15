@@ -1,22 +1,13 @@
 {
-    "id": "08299a10-8d85-436b-983c-72820a9674b1",
+    "id": "012ad76f-6a9c-4aa2-9388-2e8677ff7c37",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pickup_pistol",
+    "name": "obj_health_pack",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "783d7ed8-d060-4d0b-90ae-70fff5dde527",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
-            "propertyId": "10a7fd60-be0f-4616-b771-d6d72d3793a3",
-            "value": "\"Pistol\""
-        }
-    ],
+    "overriddenProperties": null,
     "parentObjectId": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b6d07843-d96c-4dcd-8fc6-35caa5a9ea17",
+    "spriteId": "8afa2f62-de2c-4d16-ade2-42e1dc0b3cf1",
     "visible": true
 }

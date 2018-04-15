@@ -9,11 +9,11 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "46dd34ae-c4a5-43d0-a948-fc6289aef395",
+            "id": "c60f79a3-9430-432d-9848-c9091c9a2ab8",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "178e3584-1075-4a11-96c1-e7eaadeaab4c",
-            "propertyId": "83eba5d0-915b-416e-904c-aeda97969e90",
+            "propertyId": "10a7fd60-be0f-4616-b771-d6d72d3793a3",
             "value": "\"Rifle\""
         }
     ],

@@ -10,6 +10,12 @@ if(__dnd_health <= 0)
 	/// @DnDHash : 022667D6
 	/// @DnDParent : 78B36997
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Game.End_Game
+	/// @DnDVersion : 1
+	/// @DnDHash : 0831FCBB
+	/// @DnDParent : 78B36997
+	game_end();
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

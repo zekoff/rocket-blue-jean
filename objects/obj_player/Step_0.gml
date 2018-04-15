@@ -14,10 +14,11 @@ rifle_current += -1;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 160A1242
-/// @DnDArgument : "code" "// Apply movement friction$(13_10)if (on_ground && hsp != 0) {$(13_10)	var dir = sign(hsp);$(13_10)	hsp = max(0, abs(hsp) - friction_power);$(13_10)	hsp *= dir;$(13_10)}"
+/// @DnDArgument : "code" "// Apply movement friction$(13_10)if (hsp != 0) {$(13_10)	var dir = sign(hsp);$(13_10)	var actual_friction = on_ground ? friction_power : friction_power / 2;$(13_10)	hsp = max(0, abs(hsp) - friction_power);$(13_10)	hsp *= dir;$(13_10)}"
 // Apply movement friction
-if (on_ground && hsp != 0) {
+if (hsp != 0) {
 	var dir = sign(hsp);
+	var actual_friction = on_ground ? friction_power : friction_power / 2;
 	hsp = max(0, abs(hsp) - friction_power);
 	hsp *= dir;
 }

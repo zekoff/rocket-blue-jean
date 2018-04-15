@@ -1,0 +1,6 @@
+hspeed/vspeed-based collision notes
+- obj begins frame w/ x,y,dir,spd values
+- before "Begin Step", xprevious and yprevious are set to x/y from previous frame
+- user-space Step code
+- obj x/y updated based on hspeed and vspeed after Step
+- draw events
